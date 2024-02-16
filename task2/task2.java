@@ -4,11 +4,8 @@ import java.util.Scanner;
 
 public class task2 {
     public static void main(String[] args) throws FileNotFoundException {
-//        String pathFileTo1 = args[0];
-//        String pathFileTo2 = args[1];
-
-        String pathFileTo1 = "F:\\Испытательная задача\\Файл 1.txt";
-        String pathFileTo2 = "F:\\Испытательная задача\\Файл 2.txt";;
+        String pathFileTo1 = args[0];
+        String pathFileTo2 = args[1];
 
         Scanner scr1 = new Scanner(new File(pathFileTo1));
         Scanner scr2 = new Scanner(new File(pathFileTo2));
